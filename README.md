@@ -71,7 +71,7 @@ The system follows a **Producer-Consumer** model to ensure thread safety and sca
 ### Step 1: Clone the Repository
 
 ```bash
-git clone [https://github.com/Pickachu19/ThreadSleuth.git](https://github.com/Pickachu19/ThreadSleuth.git)
+git clone https://github.com/Pickachu19/ThreadSleuth.git
 cd ThreadSleuth
 
 ```
