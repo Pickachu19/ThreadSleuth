@@ -129,5 +129,3 @@ This project was built by a dedicated team of developers:
 * **[Sumaiya Arshad](https://github.com/pickachu19)**
 * **[Hoor ul ein Soomro](https://github.com/hurrainjhl)** 
 * **[Affaf Ahmad](https://github.com/Affafahmad)** 
-
-```
