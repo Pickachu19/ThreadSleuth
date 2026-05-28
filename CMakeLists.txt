@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ParallelForensicAnalyzer)
+project(ThreadSleuth)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -pthread -Wall")
@@ -15,8 +15,8 @@ include_directories(${OPENSSL_INCLUDE_DIR})
 file(GLOB_RECURSE SOURCES src/*.cpp)
 
 # Create Main Executable
-add_executable(parallel_engine ${SOURCES})
-target_link_libraries(parallel_engine OpenSSL::Crypto pthread)
+add_executable(ThreadSleuth ${SOURCES})
+target_link_libraries(ThreadSleuth OpenSSL::Crypto pthread)
 
 # Create Test Executable (Exclude main.cpp)
 list(FILTER SOURCES EXCLUDE REGEX "src/main.cpp")
